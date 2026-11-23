@@ -1,0 +1,71 @@
+{
+  "slug": "oop",
+  "title": "Object-Oriented Programming",
+  "summary": "Object-Oriented Programming is a programming paradigm based on the concept of classes and objects, used to structure software into simple, reusable pieces of code.",
+  "subject": "CS",
+  "language": "en",
+  "readingTimeMinutes": 8,
+  "youtubeId": "",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "body": "Object-Oriented Programming, commonly known as OOP, revolutionized software development by modeling real-world entities as software objects. Instead of focusing solely on logic or procedures, developers focus on the data and the methods that manipulate that data. This approach promotes modularity, making codebases easier to maintain, scale, and debug over time. Languages like Java, C++, Python, and C# are built around these foundational principles."
+    },
+    {
+      "heading": "Core Pillars of OOP",
+      "body": "The architecture of OOP relies on four main pillars: encapsulation, inheritance, polymorphism, and abstraction. Encapsulation bundles data and methods within a single unit and restricts direct access to some components. Inheritance allows new classes to adopt properties and behaviors of existing classes, promoting code reuse. Polymorphism enables different classes to be treated through the same interface, while abstraction hides complex implementation details and exposes only the essential features."
+    },
+    {
+      "heading": "OOP Concepts Comparison",
+      "type": "table",
+      "headers": [
+        "Pillar",
+        "Primary Benefit",
+        "Common Use Case"
+      ],
+      "rows": [
+        [
+          "Encapsulation",
+          "Data hiding and security",
+          "Protecting internal state variables"
+        ],
+        [
+          "Inheritance",
+          "Code reuse and hierarchy",
+          "Sharing common logic among subclasses"
+        ],
+        [
+          "Polymorphism",
+          "Flexibility and extensibility",
+          "Method overriding in dynamic dispatch"
+        ]
+      ]
+    },
+    {
+      "heading": "Practical Application",
+      "body": "In real-world software engineering, OOP is heavily utilized in game development, graphical user interface design, and enterprise application architecture. For instance, a video game might define a generic 'Character' class with health and position attributes, and then create specialized subclasses like 'Warrior' or 'Mage' that inherit those traits. This hierarchical modeling reduces redundancy and streamlines the addition of new features as the project grows. Furthermore, modern frameworks heavily rely on object-oriented principles to manage complex system states and component interactions efficiently."
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Class",
+      "definition": "A blueprint or template from which individual objects are created, defining their attributes and behaviors."
+    },
+    {
+      "term": "Object",
+      "definition": "An instance of a class that contains state (attributes) and behavior (methods)."
+    },
+    {
+      "term": "Encapsulation",
+      "definition": "The mechanism of wrapping the data and code acting on the data together as a single unit."
+    },
+    {
+      "term": "Inheritance",
+      "definition": "A mechanism where one class acquires the properties and methods of another class."
+    },
+    {
+      "term": "Polymorphism",
+      "definition": "The ability of different classes to respond to the same message or method call in unique ways."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.000
+Variables store values under names.
+
+00:00:05.000 --> 00:00:10.000
+Indentation defines code blocks in Python.
+
+00:00:10.000 --> 00:00:15.000
+Functions start with def and return with return.

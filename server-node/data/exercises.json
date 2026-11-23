@@ -1,0 +1,208 @@
+{
+  "photosynthesis": [
+    {
+      "id": "photo-ex1",
+      "type": "multiple-choice",
+      "question": "Which organelle is the main site of photosynthesis?",
+      "options": [
+        "Mitochondrion",
+        "Chloroplast",
+        "Nucleus",
+        "Ribosome"
+      ],
+      "answer": "Chloroplast",
+      "explanation": "Chloroplasts contain chlorophyll and host both stages."
+    }
+  ],
+  "newtons-laws": [
+    {
+      "id": "nl-ex1",
+      "type": "multiple-choice",
+      "question": "A 2 kg object accelerates at 3 m/s². What is the net force?",
+      "options": [
+        "1.5 N",
+        "5 N",
+        "6 N",
+        "0.67 N"
+      ],
+      "answer": "6 N",
+      "explanation": "F = m x a = 2 x 3 = 6 N."
+    }
+  ],
+  "python-basics": [
+    {
+      "id": "py-ex1",
+      "type": "coding",
+      "question": "Write a function square(x) that returns x * x.",
+      "modelAnswer": "def square(x):\n    return x * x"
+    }
+  ],
+  "object-oriented-programming": [
+    {
+      "id": "gen-1",
+      "type": "multiple-choice",
+      "question": "Which Object-Oriented Programming concept allows different classes to respond to the same method call in their own specific way?",
+      "options": [
+        "Encapsulation",
+        "Polymorphism",
+        "Inheritance",
+        "Abstraction"
+      ],
+      "answer": "Polymorphism",
+      "explanation": "Polymorphism allows objects of different types to implement the same method interface in unique ways."
+    },
+    {
+      "id": "gen-2",
+      "type": "multiple-choice",
+      "question": "Which mechanism in Object-Oriented Programming restricts direct access to an object's internal data fields and enforces interaction through public methods?",
+      "options": [
+        "Inheritance",
+        "Polymorphism",
+        "Encapsulation",
+        "Instantiation"
+      ],
+      "answer": "Encapsulation",
+      "explanation": "Encapsulation protects an object's internal state by hiding fields and exposing only controlled interface methods."
+    }
+  ],
+  "oop": [
+    {
+      "id": "gen-1",
+      "type": "multiple-choice",
+      "question": "Which of the following is not a core principle of Object-Oriented Programming?",
+      "options": [
+        "Encapsulation",
+        "Compilation",
+        "Inheritance",
+        "Polymorphism"
+      ],
+      "answer": "Compilation",
+      "explanation": "Compilation is a language translation process, whereas encapsulation, inheritance, and polymorphism are core OOP principles."
+    },
+    {
+      "id": "gen-2",
+      "type": "multiple-choice",
+      "question": "What term describes the mechanism of wrapping data and code acting on the data together as a single unit?",
+      "options": [
+        "Inheritance",
+        "Abstraction",
+        "Encapsulation",
+        "Polymorphism"
+      ],
+      "answer": "Encapsulation",
+      "explanation": "Encapsulation restricts direct access to some of an object's components and bundles the data with the methods that operate on it."
+    }
+  ],
+  "game-theory": [
+    {
+      "id": "gen-1",
+      "type": "multiple-choice",
+      "question": "What is the primary solution concept in game theory where no player has an incentive to unilaterally change their chosen strategy?",
+      "options": [
+        "Pareto optimality",
+        "Nash equilibrium",
+        "Minimax theorem",
+        "Dominant strategy"
+      ],
+      "answer": "Nash equilibrium",
+      "explanation": "A Nash equilibrium represents a stable state where each player's strategy is optimal given the strategies of all other players."
+    },
+    {
+      "id": "gen-2",
+      "type": "multiple-choice",
+      "question": "In the classic Prisoner's Dilemma, what is the dominant strategy for each individual player?",
+      "options": [
+        "Cooperate",
+        "Defect",
+        "Remain silent",
+        "Alternate"
+      ],
+      "answer": "Defect",
+      "explanation": "Defection strictly dominates cooperation for both players regardless of the other player's choice, leading to a suboptimal Nash equilibrium."
+    }
+  ],
+  "french": [
+    {
+      "id": "gen-1",
+      "type": "multiple-choice",
+      "question": "Which historical event primarily contributed to the significant influx of Germanic (Frankish) vocabulary into the Gallo-Romance spoken in Gaul?",
+      "options": [
+        "The Roman conquest led by Julius Caesar",
+        "The invasion and settlement of Germanic tribes like the Franks",
+        "The Norman Conquest of England in 1066",
+        "The establishment of the Académie Française"
+      ],
+      "answer": "The invasion and settlement of Germanic tribes like the Franks",
+      "explanation": "The political dominance and settlement of the Germanic Franks in Gaul heavily influenced the local Vulgar Latin, adding numerous words related to warfare, society, and nature."
+    },
+    {
+      "id": "gen-2",
+      "type": "multiple-choice",
+      "question": "What is the primary structural role of the Académie Française regarding the French language?",
+      "options": [
+        "To fund international French immersion schools",
+        "To regulate and maintain the official standards of the French language",
+        "To translate classical Greek and Latin texts into modern French",
+        "To govern the phonological rules of Canadian French"
+      ],
+      "answer": "To regulate and maintain the official standards of the French language",
+      "explanation": "Established in 1635, the Académie Française acts as the official authority on the usages, vocabulary, and grammar of the French language."
+    }
+  ],
+  "mux-in-digital-design": [
+    {
+      "id": "gen-1",
+      "type": "multiple-choice",
+      "question": "How many select lines are required for a multiplexer with 16 data inputs?",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "16"
+      ],
+      "answer": "4",
+      "explanation": "The number of select lines n is determined by the formula 2^n = number of inputs, so 2^4 = 16."
+    },
+    {
+      "id": "gen-2",
+      "type": "multiple-choice",
+      "question": "Which of the following describes the primary function of a multiplexer in digital design?",
+      "options": [
+        "To convert serial data to parallel data",
+        "To perform arithmetic operations on binary numbers",
+        "To select one of many inputs and forward it to a single output",
+        "To store binary information in a sequential circuit"
+      ],
+      "answer": "To select one of many inputs and forward it to a single output",
+      "explanation": "A multiplexer acts as a digital switch that chooses one input signal based on the value of its select lines."
+    }
+  ],
+  "black-holes": [
+    {
+      "id": "gen-1",
+      "type": "multiple-choice",
+      "question": "What is the term for the spherical boundary surrounding a black hole from which nothing, not even light, can escape?",
+      "options": [
+        "Singularity",
+        "Event Horizon",
+        "Accretion Disk",
+        "Photon Sphere"
+      ],
+      "answer": "Event Horizon",
+      "explanation": "The event horizon marks the point of no return where the gravitational pull becomes too strong for light to escape."
+    },
+    {
+      "id": "gen-2",
+      "type": "multiple-choice",
+      "question": "According to General Relativity, what happens to time as you approach the event horizon of a black hole?",
+      "options": [
+        "Time speeds up",
+        "Time remains constant",
+        "Time slows down relative to a distant observer",
+        "Time stops existing entirely"
+      ],
+      "answer": "Time slows down relative to a distant observer",
+      "explanation": "Gravitational time dilation causes time to pass more slowly for an object closer to a massive gravitational source compared to one further away."
+    }
+  ]
+}

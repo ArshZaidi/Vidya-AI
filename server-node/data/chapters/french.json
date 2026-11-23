@@ -1,0 +1,67 @@
+{
+  "slug": "french",
+  "title": "The French Language: History, Structure, and Global Influence",
+  "summary": "An exploration of the origins, grammatical framework, and global significance of the French language.",
+  "subject": "Linguistics",
+  "language": "en",
+  "readingTimeMinutes": 8,
+  "youtubeId": "",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "body": "French is a Romance language that evolved from Gallo-Romance dialects spoken in Northern France. Today, it is spoken by over 300 million people across the globe as a native or second language. As an official language of the United Nations, the European Union, and numerous international organizations, French holds immense diplomatic and cultural importance. Understanding French requires exploring both its rich historical evolution and its precise grammatical structures."
+    },
+    {
+      "heading": "Historical Evolution",
+      "body": "The linguistic roots of French trace back to the Roman conquest of Gaul, where Vulgar Latin mingled with the Celtic language of the indigenous Gauls. Following the collapse of the Roman Empire, Germanic influences from the Franks further shaped the local dialects, gradually differentiating them into Old French. During the medieval period, the dialect of the Île-de-France region emerged as the prestige standard. Subsequent centuries saw the establishment of the Académie Française to regulate the language and the colonial expansion that spread French to the Americas, Africa, and Asia."
+    },
+    {
+      "heading": "Grammatical Structure",
+      "type": "table",
+      "headers": [
+        "Feature",
+        "French",
+        "English"
+      ],
+      "rows": [
+        [
+          "Grammatical Gender",
+          "Masculine and Feminine",
+          "None (mostly neutral)"
+        ],
+        [
+          "Verb Conjugation",
+          "Highly inflected (varies by person/tense)",
+          "Mostly invariant except third-person singular"
+        ],
+        [
+          "Word Order",
+          "Typically Subject-Verb-Object (SVO)",
+          "Typically Subject-Verb-Object (SVO)"
+        ]
+      ]
+    },
+    {
+      "heading": "Phonetics and Orthography",
+      "body": "French pronunciation is characterized by liaison, where the silent final consonant of a word is pronounced before a following word beginning with a vowel sound. The language utilizes five diacritic marks (the cedilla, acute accent, grave accent, circumflex, and trema) to alter vowel sounds and distinguish homophones. Although French orthography preserves historical spellings that do not always match current pronunciations, these written conventions maintain etymological links to Latin. Mastering French phonetics requires careful attention to nasal vowels and silent letters."
+    },
+    {
+      "heading": "Global Reach and Francophonie",
+      "body": "The term 'Francophonie' refers to the community of nations and governments that share the French language. While France remains the cultural heartland, the majority of French speakers now reside outside of Europe, particularly in Sub-Saharan Africa and Canada. This global dispersion has led to diverse regional varieties, including Quebecois French, Belgian French, and various African adaptations. Despite these regional differences, standard written French remains remarkably uniform worldwide, facilitating international communication."
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Romance Language",
+      "definition": "A language family that evolved from Vulgar Latin, including French, Spanish, Italian, and Portuguese."
+    },
+    {
+      "term": "Liaison",
+      "definition": "The pronunciation of a normally silent final consonant in spoken French when the next word begins with a vowel."
+    },
+    {
+      "term": "Académie Française",
+      "definition": "The official body of France charged with regulating and maintaining the standards of the French language."
+    }
+  ]
+}

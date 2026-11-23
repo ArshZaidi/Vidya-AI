@@ -1,0 +1,32 @@
+{
+  "photosynthesis": [
+    {
+      "title": "Khan Academy - Photosynthesis",
+      "url": "https://www.khanacademy.org/science/biology/photosynthesis-in-plants"
+    },
+    {
+      "title": "NPTEL - Plant Physiology",
+      "url": "https://nptel.ac.in/courses/102106053"
+    }
+  ],
+  "newtons-laws": [
+    {
+      "title": "Khan Academy - Forces & Newton's Laws",
+      "url": "https://www.khanacademy.org/science/physics/forces-newtons-laws"
+    },
+    {
+      "title": "MIT OCW - Classical Mechanics",
+      "url": "https://ocw.mit.edu/courses/8-01sc-classical-mechanics-fall-2016/"
+    }
+  ],
+  "python-basics": [
+    {
+      "title": "freeCodeCamp - Python",
+      "url": "https://www.freecodecamp.org/learn/scientific-computing-with-python/"
+    },
+    {
+      "title": "Coursera - Python for Everybody",
+      "url": "https://www.coursera.org/specializations/python"
+    }
+  ]
+}

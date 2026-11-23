@@ -1,0 +1,38 @@
+{
+  "slug": "photosynthesis",
+  "title": "Photosynthesis",
+  "summary": "How plants convert light energy into chemical energy stored in glucose.",
+  "subject": "Biology",
+  "language": "en",
+  "readingTimeMinutes": 8,
+  "sections": [
+    {
+      "heading": "What is Photosynthesis?",
+      "body": "Photosynthesis is the process by which green plants, algae, and some bacteria convert light energy into chemical energy stored in glucose. It produces the oxygen we breathe and forms the base of most food chains.\n\nThe balanced equation:\n6CO2 + 6H2O + light -> C6H12O6 + 6O2"
+    },
+    {
+      "heading": "Where Does It Happen?",
+      "body": "Photosynthesis takes place inside chloroplasts, mainly in leaves. Chloroplasts contain chlorophyll, which absorbs blue and red light while reflecting green light - which is why leaves look green."
+    },
+    {
+      "heading": "Two Stages",
+      "body": "1. Light-dependent reactions (thylakoid membranes): light splits water, releasing oxygen and producing ATP and NADPH.\n\n2. Calvin cycle (stroma): uses ATP and NADPH to fix CO2 into glucose."
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Chlorophyll",
+      "definition": "Green pigment that absorbs light."
+    },
+    {
+      "term": "Chloroplast",
+      "definition": "Organelle where photosynthesis occurs."
+    },
+    {
+      "term": "ATP",
+      "definition": "Energy-carrying molecule from light reactions."
+    }
+  ],
+  "subtitlesUrl": "/subtitles/photosynthesis.vtt",
+  "videoUrl": ""
+}

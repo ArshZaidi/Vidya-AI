@@ -1,0 +1,71 @@
+{
+  "slug": "game-theory",
+  "title": "Game Theory",
+  "summary": "Game theory is the mathematical study of strategic decision-making where the outcome for each participant depends on the choices of all.",
+  "subject": "Mathematics",
+  "language": "en",
+  "readingTimeMinutes": 8,
+  "youtubeId": "",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "body": "Game theory provides a formal framework for analyzing interactions among independent, rational agents. Developed initially by John von Neumann and Oskar Morgenstern in the mid-20th century, it has evolved into a vital tool across economics, evolutionary biology, political science, and computer science. By modeling real-world conflicts and cooperation as abstract games, analysts can predict likely outcomes and optimal strategies. It transforms complex negotiations and tactical decisions into quantifiable models."
+    },
+    {
+      "heading": "Core Principles",
+      "body": "At the heart of any game are players, strategies, and payoffs. Players represent the decision-makers, whether individuals, corporations, or nations. Strategies are the complete plans of action a player will take based on the circumstances they encounter. Payoffs quantify the utility or outcome a player receives depending on the strategy combination chosen by everyone involved. A central concept in this domain is finding a balance where no player has an incentive to unilaterally deviate from their chosen strategy."
+    },
+    {
+      "heading": "Strategic Models",
+      "type": "table",
+      "headers": [
+        "Game Type",
+        "Information",
+        "Example"
+      ],
+      "rows": [
+        [
+          "Prisoner's Dilemma",
+          "Complete and Imperfect",
+          "Arms race, price wars"
+        ],
+        [
+          "Nash Equilibrium",
+          "Complete",
+          "Traffic routing, oligopoly pricing"
+        ],
+        [
+          "Ultimatum Game",
+          "Complete and Perfect",
+          "Wage negotiation"
+        ]
+      ]
+    },
+    {
+      "heading": "Nash Equilibrium",
+      "body": "Named after mathematician John Nash, the Nash equilibrium is a state of a system involving multiple interacting participants in which no participant can gain by a change of strategy while the other participants keep theirs unchanged. In essence, it represents a stable state of a system where every player's strategy is optimal given the strategies of all other players. Many games can have multiple Nash equilibria, or none at all in pure strategies, requiring the introduction of mixed strategies where players randomize their choices."
+    },
+    {
+      "heading": "Real-World Application",
+      "body": "Game theory is heavily utilized in economics to design auctions, such as those used by governments to allocate telecommunication spectrums. In evolutionary biology, it helps explain behavioral strategies like altruism and territorial defense through the concept of the Evolutionarily Stable Strategy. Furthermore, cybersecurity professionals use game-theoretic models to anticipate hacker behavior and optimize defensive resource allocation. Ultimately, understanding these strategic interactions enables better policy-making and competitive business positioning."
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Nash Equilibrium",
+      "definition": "A stable state in a game where no player has an incentive to unilaterally change their chosen strategy."
+    },
+    {
+      "term": "Prisoner's Dilemma",
+      "definition": "A standard example of a game analyzed in game theory that shows why two completely rational individuals might not cooperate, even if it is in their best interest to do so."
+    },
+    {
+      "term": "Zero-Sum Game",
+      "definition": "A mathematical representation of a situation in which each participant's gain or loss of utility is exactly balanced by the corresponding gains or losses of the other participants."
+    },
+    {
+      "term": "Dominant Strategy",
+      "definition": "A strategy that yields a strictly better payoff than any other strategy, regardless of what other players do."
+    }
+  ]
+}

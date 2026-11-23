@@ -1,0 +1,23 @@
+{
+  "photosynthesis": [
+    {
+      "title": "Photosynthesis - Crash Course Biology",
+      "url": "https://www.youtube.com/watch?v=uixxJtJPVXk",
+      "type": "video"
+    }
+  ],
+  "newtons-laws": [
+    {
+      "title": "Newton's Laws - Crash Course Physics",
+      "url": "https://www.youtube.com/watch?v=kKKM8Y-u7ds",
+      "type": "video"
+    }
+  ],
+  "python-basics": [
+    {
+      "title": "Python Tutorial - freeCodeCamp",
+      "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+      "type": "video"
+    }
+  ]
+}

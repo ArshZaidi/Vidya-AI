@@ -1,0 +1,81 @@
+{
+  "slug": "black-holes",
+  "title": "Black Holes",
+  "summary": "A comprehensive overview of black holes, examining their formation, anatomical structure, classification, and groundbreaking observational discoveries.",
+  "subject": "Physics",
+  "language": "en",
+  "readingTimeMinutes": 8,
+  "youtubeId": "",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "body": "Black holes are regions of spacetime where gravity is so intense that nothing, not even electromagnetic radiation such as light, possesses sufficient energy to escape. Predicted by Albert Einstein's general theory of relativity in 1915, they represent the ultimate gravitational consequence of concentrated mass. Shortly after Einstein published his field equations, Karl Schwarzschild derived the first exact solution describing a static, spherically symmetric black hole. Today, black holes have shifted from hypothetical mathematical oddities to confirmed, observable astrophysical objects that govern galactic evolution."
+    },
+    {
+      "heading": "Anatomy and Core Mechanics",
+      "body": "The outer perimeter of a black hole is demarcated by the event horizon, a causal boundary where the local escape velocity equals the speed of light. Classical general relativity posits that all mass within the horizon collapses into an infinitely dense, zero-volume point known as a gravitational singularity. Surrounding many active black holes is an accretion disk, which consists of gas and plasma heated by friction and gravitational shear to millions of degrees Kelvin. In addition, rotating black holes can twist surrounding spacetime through frame-dragging and shoot relativistic particle jets thousands of light-years into space."
+    },
+    {
+      "heading": "Classification of Black Holes",
+      "type": "table",
+      "headers": [
+        "Category",
+        "Mass Range",
+        "Formation Mechanism",
+        "Typical Environment"
+      ],
+      "rows": [
+        [
+          "Stellar-Mass",
+          "3 to ~100 Solar Masses",
+          "Gravitational core collapse of massive stars during supernovae",
+          "Scattered throughout galactic disks and binary star systems"
+        ],
+        [
+          "Intermediate-Mass",
+          "100 to 100,000 Solar Masses",
+          "Runaway stellar collisions or mergers of stellar-mass black holes",
+          "Dense globular clusters and centers of dwarf galaxies"
+        ],
+        [
+          "Supermassive",
+          "Millions to Billions of Solar Masses",
+          "Rapid accretion and hierarchical seed mergers in the early universe",
+          "Dynamic centers of almost all mature, massive galaxies"
+        ],
+        [
+          "Primordial",
+          "Subatomic to Planetary Mass",
+          "Direct collapse of high-density pockets during the Big Bang",
+          "Hypothetical; dispersed uniformly throughout cosmic halos"
+        ]
+      ]
+    },
+    {
+      "heading": "Observational Breakthroughs and Significance",
+      "body": "Because isolated black holes emit no detectable light, astronomers infer their existence by observing their gravitational influence on orbiting companion stars and surrounding gas clouds. In 2015, the Laser Interferometer Gravitational-Wave Observatory (LIGO) made the historic first direct detection of gravitational waves produced by two colliding stellar-mass black holes. Four years later, in 2019, the global Event Horizon Telescope (EHT) array captured the first resolved radio silhouette of the supermassive black hole at the center of the galaxy M87. These observational milestones offer physicists an unprecedented laboratory to test the boundaries of quantum mechanics and general relativity under extreme conditions."
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Event Horizon",
+      "definition": "The theoretical boundary surrounding a black hole beyond which the escape velocity exceeds the speed of light."
+    },
+    {
+      "term": "Gravitational Singularity",
+      "definition": "A theoretical point in spacetime where matter is compressed to infinite density and standard laws of physics break down."
+    },
+    {
+      "term": "Schwarzschild Radius",
+      "definition": "The radius that defines the event horizon for a non-rotating, spherically symmetric black hole of a given mass."
+    },
+    {
+      "term": "Accretion Disk",
+      "definition": "A rotating disk of superheated matter swirling toward a central gravitating body before crossing the event horizon."
+    },
+    {
+      "term": "Hawking Radiation",
+      "definition": "Theoretical thermal radiation predicted to be emitted by black holes due to quantum vacuum fluctuations near the horizon."
+    }
+  ]
+}

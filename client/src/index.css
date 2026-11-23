@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ink-rgb: 28 27 25;
+  --bg-rgb: 245 239 228;
+  --surface-rgb: 251 247 239;
+  --pistachio-rgb: 201 178 138;
+  --raspberry-rgb: 233 20 94;
+  --bronze-rgb: 138 90 43;
+}
+
+.dark {
+  --ink-rgb: 240 232 216;
+  --bg-rgb: 14 13 12;
+  --surface-rgb: 26 25 23;
+  --pistachio-rgb: 184 160 116;
+  --raspberry-rgb: 255 77 106;
+  --bronze-rgb: 200 136 74;
+}
+
+html, body, #root { height: 100%; margin: 0; }
+
+body {
+  background: rgb(var(--bg-rgb));
+  color: rgb(var(--ink-rgb));
+  font-family: 'DM Serif Display', Georgia, serif;
+  -webkit-font-smoothing: antialiased;
+  transition: background 200ms ease, color 200ms ease;
+}
+
+/* ============================================================
+   LANGUAGE-AWARE TYPOGRAPHY
+   The key: !important + :not(.font-display)
+   Beats Tailwind's .font-body because .content-hi :not(.font-display)
+   has specificity (0,2,0) vs .font-body (0,1,0).
+   ============================================================ */
+
+.content-hi, .content-hi :not(.font-display),
+.content-mr, .content-mr :not(.font-display) {
+  font-family: 'Noto Sans Devanagari', 'DM Serif Display', Georgia, serif !important;
+}
+.content-bn, .content-bn :not(.font-display) {
+  font-family: 'Noto Sans Bengali', 'DM Serif Display', Georgia, serif !important;
+}
+.content-ta, .content-ta :not(.font-display) {
+  font-family: 'Noto Sans Tamil', 'DM Serif Display', Georgia, serif !important;
+}
+.content-te, .content-te :not(.font-display) {
+  font-family: 'Noto Sans Telugu', 'DM Serif Display', Georgia, serif !important;
+}
+.content-kn, .content-kn :not(.font-display) {
+  font-family: 'Noto Sans Kannada', 'DM Serif Display', Georgia, serif !important;
+}
+.content-ml, .content-ml :not(.font-display) {
+  font-family: 'Noto Sans Malayalam', 'DM Serif Display', Georgia, serif !important;
+}
+.content-gu, .content-gu :not(.font-display) {
+  font-family: 'Noto Sans Gujarati', 'DM Serif Display', Georgia, serif !important;
+}
+.content-pa, .content-pa :not(.font-display) {
+  font-family: 'Noto Sans Gurmukhi', 'DM Serif Display', Georgia, serif !important;
+}
+.content-ur, .content-ur :not(.font-display) {
+  font-family: 'Noto Nastaliq Urdu', 'DM Serif Display', Georgia, serif !important;
+}
+.content-or, .content-or :not(.font-display) {
+  font-family: 'Noto Sans Oriya', 'DM Serif Display', Georgia, serif !important;
+}
+
+/* ============================================================
+   ANIMATIONS
+   ============================================================ */
+
+@keyframes float-slow {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33% { transform: translate(30px, -40px) scale(1.05); }
+  66% { transform: translate(-30px, 30px) scale(0.95); }
+}
+
+@keyframes glow-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgb(var(--raspberry-rgb) / 0); }
+  50% { box-shadow: 0 0 30px 2px rgb(var(--raspberry-rgb) / 0.15); }
+}
+
+@keyframes cursor-blink {
+  0%, 49% { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.animate-float-slow { animation: float-slow 25s ease-in-out infinite; }
+.animate-glow { animation: glow-pulse 3s ease-in-out infinite; }
+.animate-cursor { animation: cursor-blink 1s steps(2) infinite; }
+.animate-shimmer {
+  background: linear-gradient(90deg, transparent, rgb(var(--ink-rgb) / 0.05), transparent);
+  background-size: 200% 100%;
+  animation: shimmer 2s linear infinite;
+}
+
+/* Button micro-interactions */
+button, a {
+  transition: transform 150ms ease, box-shadow 200ms ease, background-color 200ms ease, color 200ms ease;
+}
+
+/* (removed: broke absolutely-positioned buttons) */
+
+/* (removed: broke absolutely-positioned buttons) */
+
+::selection { background: rgb(var(--raspberry-rgb)); color: white; }
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgb(var(--ink-rgb) / 0.15); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: rgb(var(--raspberry-rgb)); }
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { scrollbar-width: none; }

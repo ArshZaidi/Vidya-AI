@@ -1,0 +1,71 @@
+{
+  "slug": "mux-in-digital-design",
+  "title": "MUX in digital design",
+  "summary": "A multiplexer acts as a digital switch that selects one of several input signals and forwards the selected input into a single line.",
+  "subject": "CS",
+  "language": "en",
+  "readingTimeMinutes": 8,
+  "youtubeId": "",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "body": "A multiplexer, commonly referred to as a MUX, is a fundamental combinational circuit in digital electronics. It functions as a multi-input, single-output switch that routes data based on control signals. By enabling data path selection, it serves as the backbone for complex digital systems and data routing architectures."
+    },
+    {
+      "heading": "Key Concept",
+      "body": "The core mechanism of a MUX involves select lines that determine which input data reaches the output. For a MUX with 'n' select lines, there are 2^n input lines available for selection. The logic inside is typically implemented using AND-OR gate structures, where the select signals act as gatekeepers for the input data."
+    },
+    {
+      "heading": "Comparison",
+      "type": "table",
+      "headers": [
+        "Feature",
+        "Multiplexer (MUX)",
+        "Demultiplexer (DEMUX)"
+      ],
+      "rows": [
+        [
+          "Function",
+          "Many-to-One",
+          "One-to-Many"
+        ],
+        [
+          "Direction",
+          "Data Concentration",
+          "Data Distribution"
+        ],
+        [
+          "Control",
+          "Selects input for output",
+          "Selects output for input"
+        ]
+      ]
+    },
+    {
+      "heading": "Implementation",
+      "body": "Digital designers implement MUX circuits using Boolean algebra expressions. A 2-to-1 MUX is defined by the equation Y = (A AND NOT S) OR (B AND S), where A and B are inputs and S is the select bit. Larger multiplexers can be constructed by cascading smaller 2-to-1 units, allowing for scalable design in FPGA and ASIC architectures."
+    },
+    {
+      "heading": "Application",
+      "body": "Multiplexers are essential in digital systems for memory addressing, bus systems, and signal routing. They are frequently used in ALUs to select between different arithmetic or logical operations. By reducing the number of physical connections required, MUX units significantly simplify the complexity of integrated circuits."
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Select Line",
+      "definition": "The binary input signal that dictates which data input is connected to the output."
+    },
+    {
+      "term": "Combinational Circuit",
+      "definition": "A digital circuit where the output is determined solely by the current state of its inputs."
+    },
+    {
+      "term": "Data Path",
+      "definition": "The logical or physical route that digital information follows within a processor."
+    },
+    {
+      "term": "Fan-in",
+      "definition": "The number of distinct input signals that can be connected to a single multiplexer unit."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "python-basics",
+  "title": "Python Basics",
+  "summary": "Variables, control flow, and functions.",
+  "subject": "Computer Science",
+  "language": "en",
+  "readingTimeMinutes": 12,
+  "sections": [
+    {
+      "heading": "Variables",
+      "body": "Assign values to names without declaring types:\nage = 15\nname = 'Ada'"
+    },
+    {
+      "heading": "Control Flow",
+      "body": "if/elif/else for branching, for/while for loops. Indentation defines blocks."
+    },
+    {
+      "heading": "Functions",
+      "body": "Define with def, return with return:\ndef square(x):\n    return x * x"
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "int",
+      "definition": "Integer type."
+    },
+    {
+      "term": "list",
+      "definition": "Ordered mutable sequence."
+    }
+  ],
+  "subtitlesUrl": "/subtitles/python-basics.vtt",
+  "videoUrl": ""
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "object-oriented-programming",
+  "title": "object oriented programming",
+  "summary": "Object-Oriented Programming (OOP) is a foundational programming paradigm based on the concept of objects containing data fields and associated procedures.",
+  "subject": "Computer Science",
+  "language": "en",
+  "readingTimeMinutes": 8,
+  "youtubeId": "",
+  "sections": [
+    {
+      "heading": "Introduction",
+      "body": "Object-Oriented Programming (OOP) is a dominant software design paradigm centered around objects rather than isolated logic or functions. Originating with languages like Simula in the 1960s and popularized by Smalltalk, C++, and Java, OOP revolutionized how developers structure complex software. Objects act as self-contained units that combine data fields with executable methods. Today, OOP principles are incorporated into major multi-paradigm languages, including Python, C#, and JavaScript."
+    },
+    {
+      "heading": "Core Pillars of OOP",
+      "body": "The architecture of OOP rests on four fundamental principles: encapsulation, abstraction, inheritance, and polymorphism. Encapsulation ensures that internal object states are protected from unauthorized external modification by bundling data with relevant procedures. Abstraction simplifies software complexity by exposing only necessary user interfaces while concealing intricate background logic. Inheritance allows developers to reuse code across hierarchies, while polymorphism enables identical method signatures to execute context-specific logic across different classes."
+    },
+    {
+      "heading": "Paradigm Comparison",
+      "type": "table",
+      "headers": [
+        "Feature",
+        "Procedural Programming",
+        "Object-Oriented Programming",
+        "Functional Programming"
+      ],
+      "rows": [
+        [
+          "Primary Focus",
+          "Functions & Step-by-Step Algorithms",
+          "Objects & Data Abstraction",
+          "Pure Functions & Expressions"
+        ],
+        [
+          "Data Handling",
+          "Global or local variables passed to functions",
+          "Encapsulated inside objects via methods",
+          "Immutable data passed as parameters"
+        ],
+        [
+          "State Management",
+          "Mutable state changed step-by-step",
+          "Mutable state managed within object boundaries",
+          "Avoids side effects and mutable state"
+        ]
+      ]
+    },
+    {
+      "heading": "Design Patterns and SOLID Principles",
+      "body": "To maintain scalable OOP systems, software engineers rely on established architectural guidelines such as the SOLID principles. Introduced by Robert C. Martin, these five principles advocate for single-responsibility components, open-closed extensions, and interface segregation. Furthermore, standardized design patterns like the Factory, Singleton, and Observer patterns provide proven solutions to recurring structural challenges. Following these conventions minimizes software rigidity and reduces technical debt over long-term project lifecycles."
+    },
+    {
+      "heading": "Real-World Application",
+      "body": "Modern enterprise software relies heavily on OOP to construct maintainable, modular systems. For instance, Graphical User Interface (GUI) frameworks represent screen elements like buttons, text fields, and windows as distinct objects with properties and event handlers. Video game engines also utilize OOP to model dynamic entities, such as player characters, non-player enemies, and environmental assets. By mirroring real-world entities, object-oriented systems allow engineering teams to collaborate seamlessly on massive software projects."
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Encapsulation",
+      "definition": "The practice of bundling data and methods within a single unit while restricting direct external access to internal state."
+    },
+    {
+      "term": "Inheritance",
+      "definition": "A mechanism by which a child class acquires the properties and methods of a parent class, promoting code reuse."
+    },
+    {
+      "term": "Polymorphism",
+      "definition": "The ability of different objects to respond to the same function call or interface method in their own unique way."
+    },
+    {
+      "term": "Abstraction",
+      "definition": "The concept of hiding complex underlying implementation details and showing only the essential features of an object."
+    },
+    {
+      "term": "Class",
+      "definition": "An extensible program code template or blueprint used to instantiate individual objects with defined states and behaviors."
+    }
+  ]
+}

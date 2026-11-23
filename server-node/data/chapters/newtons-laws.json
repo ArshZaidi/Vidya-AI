@@ -1,0 +1,34 @@
+{
+  "slug": "newtons-laws",
+  "title": "Newton's Laws of Motion",
+  "summary": "The three foundational laws that describe motion and forces.",
+  "subject": "Physics",
+  "language": "en",
+  "readingTimeMinutes": 10,
+  "sections": [
+    {
+      "heading": "First Law - Inertia",
+      "body": "An object stays at rest, or in uniform motion, unless acted on by a net external force."
+    },
+    {
+      "heading": "Second Law - F = ma",
+      "body": "Acceleration is proportional to net force and inversely proportional to mass: F = m x a."
+    },
+    {
+      "heading": "Third Law - Action & Reaction",
+      "body": "For every action there is an equal and opposite reaction."
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Inertia",
+      "definition": "Resistance to changes in motion."
+    },
+    {
+      "term": "Net force",
+      "definition": "Vector sum of all forces on an object."
+    }
+  ],
+  "subtitlesUrl": "/subtitles/newtons-laws.vtt",
+  "videoUrl": ""
+}

@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "name": "Aarav",
+      "xp": 2400,
+      "credits": 120,
+      "rank": 1
+    },
+    {
+      "name": "Mei",
+      "xp": 2100,
+      "credits": 100,
+      "rank": 2
+    },
+    {
+      "name": "Diego",
+      "xp": 1850,
+      "credits": 90,
+      "rank": 3
+    },
+    {
+      "name": "Fatima",
+      "xp": 1600,
+      "credits": 75,
+      "rank": 4
+    },
+    {
+      "name": "You (demo)",
+      "xp": 0,
+      "credits": 0,
+      "rank": 5,
+      "isDemoUser": true
+    }
+  ]
+}

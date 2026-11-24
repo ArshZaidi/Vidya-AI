@@ -1,5 +1,6 @@
 # SDG4 Study App — Prototype
 
+AI-powered study companion for SDG 4 — any topic becomes a structured chapter, in 12 Indian languages, with an AI tutor, TTS, and subtitles.
 Local-only demo. No hosting, no database.
 
 ## Backends
